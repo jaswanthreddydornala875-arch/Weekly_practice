@@ -1,0 +1,23 @@
+import java.util.*;
+public class Check {
+    public static void main(String[]args){
+        Scanner sc = new Scanner(System.in);
+        int n;
+        System.out.println("Enter a number:");
+        n=sc.nextInt();
+        if(n!=0){
+            if(n>0){
+                System.out.println("Positive");
+            }
+            else{
+                System.out.println("Negative");
+            }
+        }
+        else{
+            System.out.println("Zero");
+        }
+        sc.close();
+    }
+
+    
+}
